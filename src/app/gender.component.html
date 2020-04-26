@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="raw">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-outline-primary"
+            style="margin-right: 10px;"
+            (click)="selectuser=male"
+            [disabled]="selectuser == male"
+            >MALE</button>
+            <button type="button" class="btn btn-outline-danger"
+            (click)="selectuser=female"
+            [disabled]="selectuser == female"
+            >FEMALE</button> 
+        </div>
+        <div class="col-md-12">
+            <img src="{{selectuser.imgurl}}">
+            <h2>{{selectuser.name}}</h2>
+        </div>
+    </div>
+</div>

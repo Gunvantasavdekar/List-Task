@@ -4,13 +4,15 @@ import { AppComponent } from './app.component';
 import {ListComponent} from "./list.component";
 import {List} from "./list";
 import { UsersComponent } from './users.component';
-//import {Mobile} from "./mobile";
+import { Gendercomponent } from './gender.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    UsersComponent
+    UsersComponent,
+    Gendercomponent
   ],
   imports: [
     BrowserModule

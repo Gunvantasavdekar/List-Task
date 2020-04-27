@@ -5,6 +5,11 @@ import {ListComponent} from "./list.component";
 import {List} from "./list";
 import { UsersComponent } from './users.component';
 import { Gendercomponent } from './gender.component';
+import { ParentComponent } from './parent.component';
+import { ChildComponent } from './child.component';
+import { SonglistComponent } from './songlist.component';
+import { SongComponent } from './song.component';
+
 
 
 @NgModule({
@@ -12,7 +17,12 @@ import { Gendercomponent } from './gender.component';
     AppComponent,
     ListComponent,
     UsersComponent,
-    Gendercomponent
+    Gendercomponent,
+    ParentComponent,
+    ChildComponent,
+    SonglistComponent,
+    SongComponent
+
   ],
   imports: [
     BrowserModule

@@ -24,7 +24,9 @@
         "node",
         "rectjs",
         "selectuser",
+        "songlist",
         "template",
-        "url"
+        "url",
+        "usermail"
     ]
 }

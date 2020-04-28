@@ -9,6 +9,8 @@ import { ParentComponent } from './parent.component';
 import { ChildComponent } from './child.component';
 import { SonglistComponent } from './songlist.component';
 import { SongComponent } from './song.component';
+import { MovieListComponent } from './movielist.component';
+
 
 
 
@@ -21,7 +23,9 @@ import { SongComponent } from './song.component';
     ParentComponent,
     ChildComponent,
     SonglistComponent,
-    SongComponent
+    SongComponent,
+    MovieListComponent,
+   
 
   ],
   imports: [
